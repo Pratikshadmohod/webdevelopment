@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article{
+            height: 300px;
+            width:200px;
+            background-color: coral;
+            border:1px solid black;
+        }
+        .container{
+            border:1px solid black;
+            height:550px;
+           display:flex;
+           /*justify-content: flex-start;
+           align-items:flex-start; */
+          /* flex-wrap: wrap;
+           flex-direction:column-reverse;
+           flex-flow:wrap column;*/
+           justify-content: flex-start;
+           flex-wrap: wrap;
+        }
+        .first{
+         /*   flex-grow: 1;*/
+            flex-shrink:1 ;
+            flex-basis: 300px;
+            order:3;
+        }
+        .second{
+           /* flex-grow:1;*/
+            flex-shrink:1;
+            order: -1;
+        }
+        .third{
+            order:0;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+     <article class="first">
+         <h4>Document</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolor. Possimus ad omnis iure laborum incidunt a ut repudiandae, aspernatur reiciendis voluptate blanditiis molestias natus vero exercitationem consequatur nam temporibus.</p>
+     </article>
+     <article class="second">
+         <h4>Second</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque omnis, et corporis natus accusantium, nihil facilis unde fugiat veniam labore eos dolor eligendi quidem quis esse aliquam dignissimos laborum ducimus.</p>
+     </article>
+     <article class="third">
+         <h4>Third</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusamus aliquid error, eum blanditiis reiciendis laudantium a quibusdam doloremque perferendis magnam itaque ea! Hic doloribus excepturi repudiandae iusto incidunt ex.</p>
+     </article>
+     <article>
+        <h4>Document Object</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusamus aliquid error, eum blanditiis reiciendis laudantium a quibusdam doloremque perferendis magnam itaque ea! Hic doloribus excepturi repudiandae iusto incidunt ex.</p>
+    </article>
+    <article>
+        <h4>Document Object</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusamus aliquid error, eum blanditiis reiciendis laudantium a quibusdam doloremque perferendis magnam itaque ea! Hic doloribus excepturi repudiandae iusto incidunt ex.</p>
+    </article>
+    </section>
+</body>
+</html>

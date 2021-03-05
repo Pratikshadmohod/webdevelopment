@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display:grid;
+            grid-column-gap: 50px;
+            grid-row-gap: 50px;
+            background-color:rgb(10, 10, 131);
+            padding:10px;
+            grid-template-columns: auto auto auto;
+            width: 70%;
+            height: 100%;
+            text-align: center;
+        }
+        .item1{
+            background-color: lightskyblue;
+            text-align:center;
+          
+        }
+        .item2{
+            background-color:whitesmoke;
+            width:110%;
+            height:110%;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">Contact Us</div>
+        
+        <div class="item2">
+        <from>
+            <label>Full Name</label>
+            <input element="text" height="30%" width="30%">
+            <label>Email Address</label>
+            <input type="email" height="30%" width="30%"><br><b></b>
+            <label>Messages</label>
+            <input type="messages" height="30%" width="30%">
+        </from>
+        </div>
+    </div>
+</body>
+</html>

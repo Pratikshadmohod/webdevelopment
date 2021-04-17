@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>UserForm</h1>
+    <form class="form">
+        <div class="content">
+            <label for="FirstName" class="name">FirstName</label>
+            <input type="text" name="fname" id="fname"><br><br>
+
+            <label for="email" class="mailaddress">Email Address</label>
+            <input type="email" name="Email" id="mail"><br><br>
+
+            <label for="gender" class="gender">Gender</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male" class="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female" class="female">female</label><br><br>
+
+            <!--<input type="checkbox" name="status" id="opt">
+            <label for="status" class="conditions">Yes I agree with you terms and condition</label><br><br>-->
+
+
+            <label for="cars" class="cityname">Choose a city:</label>
+            <select name="city" class="optselect">
+                <optgroup label="Maharashtra">
+
+                    <option value="pune">Pune</option>
+                    <option value="navi mumbai">Navi Mumbai</option>
+                    <option value="nagpur">Nagpur</option>
+                    <option value="nashik">Nashik</option>
+                    <option value="solapur">Solapur</option>
+                    <option value="sangli">Sangli</option>
+                    <option value="kolhapur">Kolhapur</option>
+                    <option value="pandarpur">Pandarpur</option>
+                </optgroup>
+                <optgroup label="karnataka">
+                    <option value="Benluguru">Benluguru</option>
+                    <option value="Gularga">Gularga</option>
+                    <option value="Raichur">Raichur</option>
+                    <option value="Hubli">Hubli</option>
+                    <option value="Mysore">Mysore</option>
+                    <option value="Bijapur">Bijapur</option>
+                    <option value="Udupi">Udupi</option>
+                </optgroup>
+            </select><br><br>
+
+            <input type="checkbox" name="status" id="opt">
+            <label for="status" class="conditions">Yes I agree with you terms and condition</label><br><br>
+            
+            <input type="buton" id="getbutton" onclick="getdata()" value="Get Data">
+            <script src="userdata.js"></script>
+            </div>
+    </form>
+</body>
+</html>
